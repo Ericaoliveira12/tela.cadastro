@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100px; */
+    margin: 0;
+}
+
+#container {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.col{
+    border-radius: 50%;
+}
+
+.form-control {
+    border-radius: 100px;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    margin: -6px 0;
+    box-sizing: border-box;
+}
+
+.select-container {
+    text-align: center;
+}
+
+.select-container select {
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-save {
+    background-color: #188e13;
+    border-color: #188e13;
+    color: white;
+    float: right;
+    margin-bottom: 30px;
+    bottom: 30px;
+}
+
+
+
+
+
+/* CSS da navbar */
+.navbar {
+    background: linear-gradient(to left, #56BFC9, #24A637 65%);
+    background-size: cover;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding: 1rem 4rem;
+    margin-bottom: 2rem;
+}
+
+
+
+/* Barra superior */
+.bar-subnav {
+    width: 100%;
+    height: 5px; /* Altura da barra de progresso */
+    background: linear-gradient(to left, #56BFC9, #24A637 65%); /* Cor de fundo da barra de progresso */
+}
+
+
+.nav_itens_options {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+.nav_itens_options li {
+    margin-right: 15px;
+    border-right: 2px solid #FFA000; /* Altera a cor e a largura da barra vertical */
+    padding-right: 15px; /* Espaçamento entre o texto e a barra */
+}
+
+
+.nav_itens_options li:last-child {
+    margin-right: 0;
+    border-right: none; /* Remove a borda direita do último elemento */
+}
+
+
+.nav_itens_options li a {
+    color: white;
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+
+.nav_itens h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* Cor quando passa o mouse */
+.nav_itens_options li a:hover {
+    color: #ffc053;
+}
+
+
+/* Cor quando selecionado */
+.nav_itens_options li.active a {
+    color: #ffc053;
+}
+
+#eeepmmlogo {
+    margin-left: 80px;
+    height: 5.5rem;
+    margin-top: 8px;
+}
+
+
+#govlogo {
+    height: 3.5rem;
+    margin-left: 35px;
+}
